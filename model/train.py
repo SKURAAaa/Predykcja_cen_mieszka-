@@ -8,18 +8,12 @@ import os
 import sys
 ...
 
-# 1. BEZWZGLĘDNE WYMUSZENIE ŚCIEŻKI GŁÓWNEJ
-# Pobieramy ścieżkę do folderu, w którym jest ten plik (model)
 current_dir = os.path.dirname(os.path.abspath(__file__))
-# Pobieramy ścieżkę do folderu wyżej (Predykcja_cen_mieszkań_Grupa5)
 parent_dir = os.path.dirname(current_dir)
-# Wrzucamy główny folder na ZEROWE miejsce listy ścieżek Pythona
 sys.path.insert(0, parent_dir)
 
-# 2. TERAZ DOPIERO IMPORTUJEMY TWOJE PLIKI
 from data.preprocess import load_and_preprocess_data
 
-# 3. RESZTA IMPORTÓW
 import joblib
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
