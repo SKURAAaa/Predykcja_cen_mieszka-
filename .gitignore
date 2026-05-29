@@ -1,0 +1,28 @@
+# Virtual environment
+
+.venv/
+
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+
+.idea/
+.vscode/
+
+# Model files
+
+*.pkl
+
+# Streamlit cache
+
+.streamlit/
+
+# System files
+
+.DS_Store
+Thumbs.db
