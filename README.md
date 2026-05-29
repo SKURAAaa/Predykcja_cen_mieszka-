@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # California Housing Price Prediction
 
 ## Opis projektu
