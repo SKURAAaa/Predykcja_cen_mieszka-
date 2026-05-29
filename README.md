@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # California Housing Price Prediction
 
 ## Opis projektu
@@ -176,3 +177,26 @@ Predykcja_cen_mieszkań_Grupa5
 ```
 
 ---
+=======
+# Predykcja_cen_mieszka-
+Celem projektu jest stworzenie aplikacji wykorzystującej silnik Machine Learning
+>>>>>>> b4e4f12a50fe384bfe941a21c540b2a8474f0eab
+
+## Jakość kodu
+
+Kod projektu został zweryfikowany przy użyciu narzędzia Pylint.
+
+### Komendy wykorzystane do weryfikacji
+
+```bash
+pylint data
+pylint model
+pylint app
+```
+## Uzyskane wyniki:
+
+| Moduł | Wynik |
+|--------|--------|
+| data | 9.29/10 |
+| model | 9.33/10 |
+| app | 9.67/10 |
