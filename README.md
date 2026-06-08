@@ -179,7 +179,6 @@ Predykcja_cen_mieszkań_Grupa5
 =======
 # Predykcja_cen_mieszka-
 Celem projektu jest stworzenie aplikacji wykorzystującej silnik Machine Learning
->>>>>>> b4e4f12a50fe384bfe941a21c540b2a8474f0eab
 
 ## Jakość kodu
 
@@ -199,3 +198,18 @@ pylint app
 | data | 9.29/10 |
 | model | 9.33/10 |
 | app | 9.67/10 |
+
+
+
+## Uruchomienie aplikacji dla użytkownika
+
+Projekt zawiera plik `Uruchom_Aplikacje.bat`.
+
+Aby uruchomić aplikację:
+
+1. Pobierz projekt.
+2. Kliknij dwukrotnie plik `Uruchom_Aplikacje.bat`.
+3. Poczekaj na uruchomienie aplikacji.
+4. Otwórz adres wyświetlony w przeglądarce.
+
+Nie jest wymagana znajomość terminala ani komend Pythona.
